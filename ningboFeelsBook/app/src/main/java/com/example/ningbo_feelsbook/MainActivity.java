@@ -20,7 +20,9 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 
 
-
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity {
     private static final String FILENAME = "file.sav";
     private EditText bodyText;
@@ -175,6 +177,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * To history.
+     *
+     * @param view the view
+     */
     public void toHistory(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);

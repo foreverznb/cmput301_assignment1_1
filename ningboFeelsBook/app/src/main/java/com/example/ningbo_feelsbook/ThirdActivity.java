@@ -31,14 +31,29 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 
+/**
+ * The type Third activity.
+ */
 public class ThirdActivity extends AppCompatActivity {
     private static final String FILENAME = "file.sav";
+    /**
+     * The Emotions 2.
+     */
     public ArrayList<Emotion> emotions_2 = new ArrayList<Emotion>();
+    /**
+     * The Adapter 2.
+     */
     public ArrayAdapter<Emotion> adapter_2;
     private EditText message;
+    /**
+     * The Change date.
+     */
     public EditText change_date;
     private EditText change_time;
     private TextView emotion;
+    /**
+     * The Position.
+     */
     public Integer position = 0;
 
     @Override
